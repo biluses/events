@@ -1,0 +1,152 @@
+body {
+		/*background-image: url('../../user_images/dgtl-barcelona.jpg');*/
+		background-color: #282828;
+	  background: url(../../user_images/dgtl-barcelona.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
+	a:visited {
+    	color: #ff8c00;
+    	text-decoration: none;
+	}
+
+	a:link {
+	    color: #ff8c00;
+	    text-decoration: none;
+	}
+	.star {
+		color: #ff8c00;
+	}
+
+	.addnew_background {
+		    background-color: rgba(93, 91, 91, 0.38);
+	}
+
+	.navbar-header2{
+		width: 100%;
+	}
+
+	.navbar.navbar-default {
+	    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    border: 0 none;
+	    border-radius: 0;
+	    margin-bottom: 0;
+	}
+
+	.navbar-default {
+	    background-repeat: repeat-x;
+	    border-radius: 4px;
+	    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+	    box-shadow: inset 0 1px 0 rgba(255, 140, 0, 0.38), 0 1px 5px rgba(255, 140, 0, 0.51);
+	}
+
+	.side {
+		float: right;
+		font-size: 12px;
+	}
+
+	#date, #buttons .addeventatc {
+	    background: #f4f4f4;
+	    border: 0;
+	    border-radius: 4px;
+	    height: 45px;
+	    max-width: 300px;
+	    margin: 0 15px;
+	    vertical-align: top;
+	    display: inline-block;
+	    font-family: inherit;
+	    z-index: auto;
+	    overflow: hidden;
+	    padding: 0 20px;
+	}
+	#buttons .addeventatc p {
+	    font-weight: 700;
+	    font-size: 14px;
+	    line-height: 18px;
+	    margin: 0;
+	    color: #36424a;
+	    padding-top: 4px;
+	}
+	main #cover img {
+	    width:540px; /* you can use % */
+    	height: auto;
+	    display: block;
+	}
+
+	#image_ev {
+		min-width: 100%;
+		height: auto;
+	}
+
+	.region_select{
+		width: 400px;
+	}
+
+	.add_new {
+    	font-size: 30px;
+	}
+
+@media (max-width: 600px) {
+
+  	#image_ev{
+    	width: 100%;
+  	}
+  	.region_select{
+		width: 100% !important;
+	}
+	.find_find{
+		width: 100%;
+	}
+	.admin_section{
+		font-size: 12px !important;
+	}
+	.back_to{
+		font-size: 14px !important;
+	}
+	.add_new {
+    	font-size: 62px;
+	}
+	.container2 {
+	     width: 100% !important; 
+	}
+	
+
+
+}
+
+@media screen and (max-width: 600px)
+{
+	.landing-text-pos h1 {
+	    font-size: 7em !important;
+	}
+
+	.landing-text-pos {
+	    top: 6% !important;
+	}
+
+	.landing-text-pos p {
+     	padding: 0% !important; 
+	}
+	.navbarsizeof {
+		font-size: 33px !important;
+	}
+
+	.landing-text-pos p {
+    	font-size: 3.5em;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 1024px)
+{
+	.landing-text-pos h1 {
+	    font-size: 7em !important;
+	}
+}
+
